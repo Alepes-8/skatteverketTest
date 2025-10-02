@@ -5,6 +5,7 @@ import java.net.http.HttpClient;
 import api.APISkatteverket;
 
 /**
+ * Only a description of the work process, not used in real life.
  * 1. Understand the assignment.
  * 2. Use the Swagger UI to test the API and understand its parameters.
  *    - https://swagger.entryscape.com/?url=https%3A%2F%2Fskatteverket.entryscape.net%2Frowstore%2Fdataset%2Fb4de7df7-63c0-4e7e-bb59-1f156a591763%2Fswagger

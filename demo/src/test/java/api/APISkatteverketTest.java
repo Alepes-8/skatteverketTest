@@ -24,7 +24,7 @@ class APISkatteverketTest {
      * - results[0].testpersonnummer = det personnummer vi skickade in
      */  
     @Test
-    public void testGetInfo() throws Exception {
+    public void givenCorrectInput_whenGetSamplePersonalNumbers_thenPersonalNumberIsAquiredFromDatabase() throws Exception {
         //Arrange
         APISkatteverket apiSkatteverket = new APISkatteverket(HttpClient.newHttpClient());
         int resultCount = 1;

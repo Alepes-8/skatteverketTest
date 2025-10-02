@@ -41,6 +41,8 @@ public class Api {
      * 
      * @param uriAddress The target URI
      * @return HttpResponse<String> containing the response body
+     * @throws IOException If a network error occurs
+     * @throws InterruptedException If the operation is interrupted
      */    
     protected HttpResponse<String> doGet(String uriAddress) throws IOException, InterruptedException {
          HttpRequest request = HttpRequest.newBuilder()
