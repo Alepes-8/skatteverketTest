@@ -1,0 +1,4 @@
+# Skatteverket Testpersonnummer API
+
+This project demonstrates how to call **Skatteverket’s open API** to fetch test personnummer (Swedish personal identity numbers).  
+It is implemented in **Java 17**, with **Maven** as the build system, and **JUnit 5** for testing.
